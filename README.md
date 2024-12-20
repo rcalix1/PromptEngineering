@@ -204,3 +204,118 @@ APPENDIX 2 - CLAUDE PATTERNS
 APPENDIX 3 - BARD PATTERNS
 
 
+## more
+
+
+### Example 1: Code Generation
+Prompt:
+
+Write a Python function to implement the bubble sort algorithm. Include comments explaining each step.
+Breakdown:
+
+Task Definition ("Write a Python function"):
+Clearly specifies the task as writing code, which helps the model avoid confusion.
+Algorithm Name ("bubble sort algorithm"):
+Names the specific algorithm to implement, guiding the model toward the correct solution.
+Instruction to Include Comments:
+Adds a requirement for clarity and explanation, ensuring the generated code is understandable for learners or reviewers.
+Why These Elements Matter:
+
+Without specifying "bubble sort," the model might guess incorrectly and provide a different sorting algorithm.
+Including "comments explaining each step" ensures the output is educational, useful for understanding, and well-documented.
+
+
+### Example 2: Content Summarization
+Prompt:
+
+Summarize the following article in 100 words, highlighting the main points: [Paste text here].
+Breakdown:
+
+Action Verb ("Summarize"):
+Tells the model what action to perform, narrowing the task to a summary.
+Output Constraint ("in 100 words"):
+Sets a clear boundary for the output length, ensuring concise results.
+Focus Area ("highlighting the main points"):
+Clarifies what aspects of the article are most important, avoiding irrelevant details.
+Why These Elements Matter:
+
+Without specifying "100 words," the model might create a summary that is too long or too short.
+Adding "highlighting the main points" prevents the summary from being vague or missing key information.
+
+### Example 3: Sentiment Analysis
+Prompt:
+
+Analyze the sentiment of the following review and classify it as Positive, Negative, or Neutral: "The product quality was excellent, but the delivery was delayed by two weeks."
+Breakdown:
+
+Task Definition ("Analyze the sentiment"):
+Directs the model to focus on analyzing emotions or tone.
+Classification Labels ("Positive, Negative, or Neutral"):
+Provides predefined categories, helping the model structure its response.
+Input Text Example:
+Supplies concrete text for analysis, making the task actionable.
+Why These Elements Matter:
+
+Including specific labels ensures that the output aligns with the desired categories.
+A concrete input example eliminates ambiguity and ensures the model works with a clear dataset.
+
+
+### Example 4: Text Rewriting
+Prompt:
+
+Rewrite the following paragraph to make it suitable for a fifth-grade reading level: [Paste text here].
+Breakdown:
+
+Action Verb ("Rewrite"):
+Focuses the task on transformation, not analysis or interpretation.
+Target Audience ("fifth-grade reading level"):
+Defines the level of complexity the model should aim for in the rewrite.
+Why These Elements Matter:
+
+Without specifying "fifth-grade reading level," the model might rewrite text for a different audience, making it less effective.
+"Rewrite" ensures the task is generative rather than interpretive.
+
+
+### Example 5: Idea Generation
+Prompt:
+
+Generate five unique marketing ideas for a sustainable clothing brand targeting young adults.
+Breakdown:
+
+Action Verb ("Generate"):
+Instructs the model to create original content.
+Number Constraint ("five unique ideas"):
+Sets an exact expectation, ensuring the response is structured and complete.
+Context ("sustainable clothing brand targeting young adults"):
+Provides essential details about the audience and brand values, guiding the model's creativity.
+Why These Elements Matter:
+
+Without the "five unique ideas" constraint, the model might provide too few or duplicate suggestions.
+Context like "sustainable" and "young adults" focuses the model on relevant themes and demographic considerations.
+
+
+### Example 6: Educational Tutoring
+Prompt:
+
+Explain the concept of quantum entanglement in simple terms for a high school student.
+Breakdown:
+
+Specific Concept ("quantum entanglement"):
+Narrows the scope to a particular topic, avoiding irrelevant explanations.
+Audience Specification ("high school student"):
+Guides the level of complexity, ensuring the explanation is accessible.
+Why These Elements Matter:
+
+Without specifying "high school student," the model might default to overly technical explanations.
+Naming the concept ensures the output is focused and relevant.
+General Best Practices for Prompt Engineering
+Start with an Action Verb:
+Clearly define the task (e.g., "Write," "Summarize," "Analyze," "Explain"). This minimizes ambiguity and sets the right expectation.
+Provide Specific Context:
+Add enough detail about the topic, audience, or constraints to guide the model effectively.
+Set Clear Output Constraints:
+Define word limits, number of items, or specific formats for the output. This ensures responses are concise, complete, and structured.
+Use Examples or Templates:
+Including examples clarifies expectations and helps the model align with the desired style or format.
+
+
