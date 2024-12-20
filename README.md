@@ -4,6 +4,9 @@
 
 * https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main
 
+## General Tips for Designing Prompts
+
+* https://www.promptingguide.ai/introduction/tips
 
 ##  Ilya Sutskever 
 
