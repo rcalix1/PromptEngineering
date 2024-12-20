@@ -318,4 +318,86 @@ Define word limits, number of items, or specific formats for the output. This en
 Use Examples or Templates:
 Including examples clarifies expectations and helps the model align with the desired style or format.
 
+## Three of thought example
+
+The Tree of Thought (ToT) framework in prompt engineering is a powerful technique for solving complex problems by exploring multiple reasoning paths and iteratively refining the solution. Here's an example of using Tree of Thought to solve a problem requiring logical reasoning:
+
+Scenario
+Problem: You are asked to create a schedule for a group of students attending three different workshops with overlapping time slots. The goal is to minimize conflicts while ensuring each student can attend their preferred workshops.
+
+Prompt Using Tree of Thought Framework
+Initial Prompt:
+
+You are tasked with creating a schedule for students attending three workshops (A, B, C) with overlapping time slots. Use a Tree of Thought approach:
+1. Propose possible scheduling strategies for minimizing conflicts.
+2. For each strategy, evaluate its pros and cons.
+3. Select the most optimal strategy and provide the final schedule.
+Start with Step 1.
+Step-by-Step Tree of Thought Reasoning
+Step 1: Propose Multiple Strategies
+
+Prompt:
+
+Step 1: Generate three distinct strategies for scheduling students for workshops A, B, and C. Explain each strategy briefly.
+Output:
+
+Sequential Scheduling: Assign non-overlapping time slots to workshops A, B, and C, even if it extends the total time required.
+Priority Scheduling: Give priority to students’ top workshop preferences and resolve conflicts by reassigning less preferred workshops.
+Group Scheduling: Divide students into groups based on preferences and availability, then schedule workshops for each group separately.
+Step 2: Evaluate Each Strategy
+
+Prompt:
+
+Step 2: Evaluate the pros and cons of each strategy proposed in Step 1.
+Output:
+
+Sequential Scheduling:
+Pros: Eliminates all conflicts.
+Cons: Increases the overall duration of the schedule.
+Priority Scheduling:
+Pros: Maximizes students’ satisfaction with their preferred workshops.
+Cons: May result in conflicts for less preferred workshops.
+Group Scheduling:
+Pros: Balances preferences and minimizes conflicts within groups.
+Cons: Requires additional coordination to group students effectively.
+Step 3: Select the Optimal Strategy
+
+Prompt:
+
+Step 3: Based on the evaluations, select the most optimal strategy and justify your choice.
+Output:
+
+Selected Strategy: Group Scheduling.
+Justification: This approach balances preference satisfaction and conflict reduction, making it the most efficient and student-friendly.
+
+Step 4: Final Output
+
+Prompt:
+
+Step 4: Implement the chosen strategy and provide the final schedule for students in workshops A, B, and C.
+Output:
+
+Group 1:
+  - Workshop A: 9:00 AM - 10:00 AM
+  - Workshop B: 10:15 AM - 11:15 AM
+Group 2:
+  - Workshop B: 9:00 AM - 10:00 AM
+  - Workshop C: 10:15 AM - 11:15 AM
+Group 3:
+  - Workshop A: 9:00 AM - 10:00 AM
+  - Workshop C: 10:15 AM - 11:15 AM
+
+Why Tree of Thought Works Here
+
+Systematic Exploration: It forces the model to explore multiple solutions (branches of the tree) rather than stopping at the first.
+Iterative Evaluation: Each branch is evaluated for feasibility, pros, and cons, improving decision quality.
+Structured Reasoning: The process mirrors human problem-solving, dividing a complex problem into manageable steps.
+General Template for Tree of Thought Prompts
+You are tasked with solving [problem description]. Follow the Tree of Thought approach:
+1. Propose [X] strategies or solutions for the problem.
+2. Evaluate the pros and cons of each solution.
+3. Select the most optimal solution based on your evaluation.
+4. Implement the chosen solution and explain your reasoning.
+This method is especially effective for problems requiring logical reasoning, creativity, or decision-making. Let me know if you'd like to apply this to another scenario!
+
 
