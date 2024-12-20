@@ -1,5 +1,7 @@
 # Prompt Engineering
 
+* Prompt Engineering: Exploring Success Stories, Learning Moments, and Effective Strategies
+
 ## Great sources
 
 * https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main
