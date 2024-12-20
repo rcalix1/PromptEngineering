@@ -1,6 +1,8 @@
 # Prompt Engineering
 
+## Great sources
 
+* https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main
 
 
 ##  Ilya Sutskever 
