@@ -14,6 +14,11 @@
 * https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/lecture/Prompt-Engineering-Lecture-Elvis.pdf
 * 
 
+## Good Examples to try with Ollama
+
+* https://www.promptingguide.ai/introduction/examples
+* 
+
 ## Great sources
 
 * https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main
