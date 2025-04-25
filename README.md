@@ -4,6 +4,11 @@
 * AIBT
 * 
 
+## Slides
+
+* https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/lecture/Prompt-Engineering-Lecture-Elvis.pdf
+* 
+
 ## Great sources
 
 * https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main
