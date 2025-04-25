@@ -2,6 +2,11 @@
 
 * Prompt Engineering: Exploring Success Stories, Learning Moments, and Effective Strategies
 * AIBT
+
+## Use ollama or chatgpt
+
+* https://ollama.com/library/llama3
+* ollama run llama3
 * 
 
 ## Slides
