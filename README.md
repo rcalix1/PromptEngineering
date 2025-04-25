@@ -289,4 +289,7 @@ You are tasked with solving [problem description]. Follow the Tree of Thought ap
 4. Implement the chosen solution and explain your reasoning.
 This method is especially effective for problems requiring logical reasoning, creativity, or decision-making. Let me know if you'd like to apply this to another scenario!
 
+## Ask ChatGPT
 
+* what is state of the art on prompts for LLMs
+* 
