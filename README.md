@@ -2,6 +2,7 @@
 
 * Prompt Engineering: Exploring Success Stories, Learning Moments, and Effective Strategies
 * AIBT
+* N8N and prompt engineering 
 
 ## Use ollama or chatgpt
 
