@@ -678,6 +678,137 @@ You are tasked with solving [problem description]. Follow the Tree of Thought ap
 4. Implement the chosen solution and explain your reasoning.
 This method is especially effective for problems requiring logical reasoning, creativity, or decision-making. Let me know if you'd like to apply this to another scenario!
 
+---
+
+# Prompt Engineering Examples for Ollama 3.2
+
+This README contains **40 short, independent examples** of prompt engineering, each with:
+
+* **Title**
+* **2-sentence explanation**
+* **Full prompt ready to paste into Ollama 3.2**
+
+Use this to guide your **90-minute workshop** — live demo, explain, then move on. Prompts span reasoning, structure, creativity, formatting, tone, safety, and more.
+
+---
+
+## 31. Socratic Rewriting
+
+**Explanation:** Ask the model to reframe a fact as a question to foster inquiry-based thinking.
+**Prompt:**
+
+```
+Rephrase this statement as a thought-provoking question:
+"The Earth revolves around the Sun."
+```
+
+---
+
+## 32. Teaching Back
+
+**Explanation:** Ask the model to explain a concept *as if teaching it*, which improves clarity and understanding.
+**Prompt:**
+
+```
+Explain what a neural network is as if you are teaching it to a high school student.
+```
+
+---
+
+## 33. Rapid Brainstorming
+
+**Explanation:** Use prompts to quickly generate many ideas in a creative burst.
+**Prompt:**
+
+```
+List 15 quirky business ideas involving AI and pets.
+```
+
+---
+
+## 34. Paradox Generator
+
+**Explanation:** Challenge the model to create intellectual tension or philosophical puzzles.
+**Prompt:**
+
+```
+Invent a new paradox related to time travel.
+```
+
+---
+
+## 35. Teaching Through Mistakes
+
+**Explanation:** Ask the model to generate a flawed example and then fix it. Enhances metacognition.
+**Prompt:**
+
+```
+Give me a poorly written resume bullet point, then rewrite it to be much stronger.
+```
+
+---
+
+## 36. Interactive Fiction
+
+**Explanation:** Start a story and let the model take it forward as an adventure. Great for engagement.
+**Prompt:**
+
+```
+You wake up in a mysterious forest with no memory of how you got there. Write the next paragraph.
+```
+
+---
+
+## 37. Impostor Detection
+
+**Explanation:** Ask the model to generate a fake that *almost* fits — useful for teaching subtlety.
+**Prompt:**
+
+```
+List 4 real Shakespeare plays and 1 fake one that sounds convincing.
+```
+
+---
+
+## 38. Contrarian Thinking
+
+**Explanation:** Invert an assumption or force the model to defend the less popular view.
+**Prompt:**
+
+```
+Make the case that procrastination can be a good thing.
+```
+
+---
+
+## 39. Moral Dilemma
+
+**Explanation:** Pose a tough ethical decision to see how the model reasons.
+**Prompt:**
+
+```
+You’re a self-driving car. You can swerve and hit one pedestrian or stay straight and hit three. What do you do?
+```
+
+---
+
+## 40. Impossible Instructions
+
+**Explanation:** Prompt for absurd tasks and see how the model gracefully handles limits.
+**Prompt:**
+
+```
+Write a recipe for an invisible sandwich that makes you fly.
+```
+
+---
+
+Let me know if you want bonus round prompts, slides, or an export to PDF.
+
+
+---
+
+
 ## Ask ChatGPT
 
 * what is state of the art on prompts for LLMs
