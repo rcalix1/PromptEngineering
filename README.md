@@ -16,10 +16,7 @@
 * https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/lecture/Prompt-Engineering-Lecture-Elvis.pdf
 * 
 
-## Good Examples to try with Ollama
 
-* https://www.promptingguide.ai/introduction/examples
-* 
 
 ## Great sources
 
@@ -476,6 +473,13 @@ Rephrase this question to be more neutral and specific:
 Answer the following, but if it involves real-time data or events after 2023, say "I can’t answer that."
 What is the price of Bitcoin today?
 ```
+
+---
+
+## Good Examples to try with Ollama
+
+* https://www.promptingguide.ai/introduction/examples
+* 
 
 ---
 
