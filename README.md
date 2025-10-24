@@ -796,10 +796,6 @@ You’re a self-driving car. You can swerve and hit one pedestrian or stay strai
 Write a recipe for an invisible sandwich that makes you fly.
 ```
 
----
-
-Let me know if you want bonus round prompts, slides, or an export to PDF.
-
 
 ---
 
