@@ -3,7 +3,9 @@
 * Prompt Engineering: Exploring Success Stories, Learning Moments, and Effective Strategies
 * AIBT
 * N8N and prompt engineering
-* link
+* Do: a N8N workflow with two agents interacting. Show how prompt engineering changes flow
+* Do: create 10 prompt engineering examples related to business problems, like: excel, marketing, etc.
+* 
 
 ## Use ollama or chatgpt
 
