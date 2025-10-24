@@ -682,14 +682,9 @@ This method is especially effective for problems requiring logical reasoning, cr
 
 # Prompt Engineering Examples for Ollama 3.2
 
-This README contains **40 short, independent examples** of prompt engineering, each with:
+* 31-40
 
-* **Title**
-* **2-sentence explanation**
-* **Full prompt ready to paste into Ollama 3.2**
-
-Use this to guide your **90-minute workshop** — live demo, explain, then move on. Prompts span reasoning, structure, creativity, formatting, tone, safety, and more.
-
+  
 ---
 
 ## 31. Socratic Rewriting
