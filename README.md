@@ -309,4 +309,371 @@ This method is especially effective for problems requiring logical reasoning, cr
 ## Ask ChatGPT
 
 * what is state of the art on prompts for LLMs
-* 
+
+---
+
+## Examples
+
+# Prompt Engineering Examples for Ollama 3.2
+
+This README contains **30 short, independent examples** of prompt engineering, each with:
+
+* **Title**
+* **2-sentence explanation**
+* **Full prompt ready to paste into Ollama 3.2**
+
+Use this to guide your **90-minute workshop** — live demo, explain, then move on. Prompts span reasoning, structure, creativity, formatting, tone, safety, and more.
+
+---
+
+## 1. Direct Instruction
+
+**Explanation:** Be literal. Most models perform well when told exactly what to do.
+**Prompt:**
+
+```
+Summarize the following paragraph in 2 sentences:
+"The rise of renewable energy has transformed the global energy landscape. Solar, wind, and hydro sources are now widely adopted."
+```
+
+---
+
+## 2. Persona Injection
+
+**Explanation:** Ask the model to adopt a persona or role to change tone and focus.
+**Prompt:**
+
+```
+You are a cybersecurity analyst. Explain how phishing works to a non-technical CEO.
+```
+
+---
+
+## 3. Output Formatting
+
+**Explanation:** Explicitly request structure: bullets, tables, etc. The model will usually comply.
+**Prompt:**
+
+```
+List five tips for better sleep. Format them as bullet points with emojis.
+```
+
+---
+
+## 4. Chain of Thought (Reasoning)
+
+**Explanation:** Add "Let's think step by step" to improve logic.
+**Prompt:**
+
+```
+If it takes 5 machines 5 minutes to make 5 widgets, how long would 100 machines take to make 100 widgets? Let's think step by step.
+```
+
+---
+
+## 5. Few-Shot Learning
+
+**Explanation:** Give a few examples, then a new case. The model learns your pattern.
+**Prompt:**
+
+```
+Convert English to pirate:
+English: Hello, friend! → Pirate: Ahoy, matey!
+English: Where is the ship? → Pirate: Whar be the ship?
+English: I love gold → Pirate:
+```
+
+---
+
+## 6. Style Transfer
+
+**Explanation:** Change tone, age, or personality through the prompt.
+**Prompt:**
+
+```
+Rewrite this as if written by a 5-year-old:
+"A nation’s economic stability depends on its fiscal policy."
+```
+
+---
+
+## 7. Expansion
+
+**Explanation:** Ask the model to elaborate or inflate an idea into a bigger structure.
+**Prompt:**
+
+```
+Turn this into a 3-paragraph article: "Exercise boosts brain function."
+```
+
+---
+
+## 8. Compression
+
+**Explanation:** Shrink long text into a tight summary. Use character or sentence constraints.
+**Prompt:**
+
+```
+Summarize the following in 1 sentence:
+"Artificial intelligence is rapidly evolving and has applications in nearly every field, from healthcare to finance to education."
+```
+
+---
+
+## 9. Constraint Prompting
+
+**Explanation:** Add constraints like word limits, vocabulary, or tone.
+**Prompt:**
+
+```
+Explain how email works using only the 1000 most common English words.
+```
+
+---
+
+## 10. Role Reversal
+
+**Explanation:** Ask the model to quiz *you* to flip the interaction.
+**Prompt:**
+
+```
+You're a biology teacher. Ask me 3 questions to test my understanding of the human circulatory system.
+```
+
+---
+
+## 11. JSON Output
+
+**Explanation:** Request structured outputs — good for code, APIs, or forms.
+**Prompt:**
+
+```
+Extract this resume into JSON with fields: name, skills, education, experience.
+"John Smith, BS Computer Science, worked at IBM for 5 years, skilled in Python and Java."
+```
+
+---
+
+## 12. Multilingual Prompting
+
+**Explanation:** Translate or compare across languages.
+**Prompt:**
+
+```
+Translate this sentence into French, German, and Japanese:
+"Where is the nearest train station?"
+```
+
+---
+
+## 13. Tone Shifting
+
+**Explanation:** Ask for a rewrite in a different emotional tone.
+**Prompt:**
+
+```
+Rewrite the following message to sound more enthusiastic:
+"I will attend the meeting tomorrow."
+```
+
+---
+
+## 14. Visual Thinking (ASCII)
+
+**Explanation:** The model can draw simple diagrams or tables using text.
+**Prompt:**
+
+```
+Draw a basic ASCII chart of the water cycle: evaporation → condensation → precipitation → collection.
+```
+
+---
+
+## 15. Avoiding Hallucination
+
+**Explanation:** Add explicit instructions to avoid guessing.
+**Prompt:**
+
+```
+Who was the emperor of China in the year 1200? If you're not sure, say "I don't know."
+```
+
+---
+
+## 16. Creative Use: Poetry
+
+**Explanation:** Prompt for creative forms like poems, lyrics, or haikus.
+**Prompt:**
+
+```
+Write a haiku about artificial intelligence.
+```
+
+---
+
+## 17. Analogy Generation
+
+**Explanation:** Ask for analogies to simplify concepts.
+**Prompt:**
+
+```
+Explain how RAM works using an analogy that a 10-year-old could understand.
+```
+
+---
+
+## 18. Debate Simulation
+
+**Explanation:** Prompt the model to simulate both sides of an issue.
+**Prompt:**
+
+```
+Debate both sides: Should social media be regulated?
+```
+
+---
+
+## 19. Multi-Step Instruction
+
+**Explanation:** Ask for multiple things in a sequence. The model can often follow steps.
+**Prompt:**
+
+```
+Summarize the article, list 3 key takeaways, and suggest a title:
+"[Paste article here]"
+```
+
+---
+
+## 20. Error Correction
+
+**Explanation:** Ask the model to identify and correct errors in grammar, math, logic, etc.
+**Prompt:**
+
+```
+Find and correct the error:
+"Their going too the store to buy apple's."
+```
+
+---
+
+## 21. Reverse Engineering
+
+**Explanation:** Let the model guess the prompt that generated a given output.
+**Prompt:**
+
+```
+This is the output: "The mitochondria is the powerhouse of the cell."
+Guess what the original prompt might have been.
+```
+
+---
+
+## 22. Prompt Templating
+
+**Explanation:** Treat prompts like templates you can fill in. Great for automation.
+**Prompt:**
+
+```
+Rewrite this product description for [audience] using a [tone] tone:
+"Our app tracks your steps and calories."
+Audience: Athletes
+Tone: Aggressive
+```
+
+---
+
+## 23. Memory Simulation
+
+**Explanation:** Simulate continuity by injecting prior conversation.
+**Prompt:**
+
+```
+Earlier you said you liked Van Gogh. Now tell me what your favorite painting of his is and why.
+```
+
+---
+
+## 24. Bias Testing
+
+**Explanation:** See if the model favors a viewpoint. Use neutral framing.
+**Prompt:**
+
+```
+What are the pros and cons of homeschooling versus public school?
+```
+
+---
+
+## 25. Instruction Clarification
+
+**Explanation:** Ask the model to reflect on unclear or vague tasks.
+**Prompt:**
+
+```
+The task is: "Fix this paragraph."
+Before doing it, tell me what you think needs fixing and why.
+```
+
+---
+
+## 26. Counterfactuals
+
+**Explanation:** Explore "what if" scenarios or hypothetical conditions.
+**Prompt:**
+
+```
+What if the internet had never been invented? Describe how education might look today.
+```
+
+---
+
+## 27. Safety Checks
+
+**Explanation:** Add safety framing to control outputs.
+**Prompt:**
+
+```
+Give me examples of safe, respectful ways to disagree with someone in a meeting.
+```
+
+---
+
+## 28. Rewriting Code Comments
+
+**Explanation:** Improve clarity of code through prompt-based editing.
+**Prompt:**
+
+```
+Rewrite this Python comment to be more helpful:
+# Sorts
+```
+
+---
+
+## 29. Reframing Questions
+
+**Explanation:** Ask the model to rephrase vague or leading questions.
+**Prompt:**
+
+```
+Rephrase this question to be more neutral and specific:
+"Why is working from home better than the office?"
+```
+
+---
+
+## 30. Model Limit Reminder
+
+**Explanation:** Remind the model of its boundaries to control hallucinations.
+**Prompt:**
+
+```
+Answer the following, but if it involves real-time data or events after 2023, say "I can’t answer that."
+What is the price of Bitcoin today?
+```
+
+---
+
+
+
