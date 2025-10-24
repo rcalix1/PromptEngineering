@@ -796,6 +796,105 @@ You’re a self-driving car. You can swerve and hit one pedestrian or stay strai
 Write a recipe for an invisible sandwich that makes you fly.
 ```
 
+---
+
+
+
+
+## 🔧 Advanced Moves (Meta & Mastery)
+
+These examples go beyond single-shot prompts — they explore how to **think like a prompt engineer**, debug failures, and simulate multi-step reasoning. Great for impressing advanced users.
+
+---
+
+### A1. System Prompt Injection (Meta Prompting)
+
+**Explanation:** The system prompt defines how the AI thinks — inject a personality or worldview before the conversation starts. This changes *all* downstream behavior.
+
+**System Prompt:**
+
+```
+You are a terse and skeptical academic who rarely praises answers. Only respond with facts, not encouragement.
+```
+
+**User Prompt:**
+
+```
+Explain the value of journaling.
+```
+
+---
+
+### A2. Prompt Debugging (Failure & Fix)
+
+**Explanation:** Show how vague prompts lead to generic outputs — and how rephrasing unlocks depth.
+
+**Bad Prompt:**
+
+```
+Tell me about Paris.
+```
+
+**Improved Prompt:**
+
+```
+Give me 3 unusual facts about Paris that tourists often overlook, and explain why each matters culturally.
+```
+
+---
+
+### A3. Prompt Optimization Loop
+
+**Explanation:** Great results often come from iterating. Start with a weak prompt, critique it, then refine.
+
+**Step 1:**
+
+```
+Write a 2-paragraph blog post on AI in education.
+```
+
+**Step 2:**
+
+```
+Critique the above blog post and suggest 3 ways to improve it.
+```
+
+**Step 3:**
+
+```
+Rewrite the blog post using your own suggestions.
+```
+
+---
+
+### A4. Multi-Turn Prompting (Simulated Memory)
+
+**Explanation:** Chain prompts together to build context or simulate memory without actual session memory.
+
+**Prompt Sequence:**
+
+```
+1. I run a bookstore. Ask me 5 questions to help you write a marketing plan.
+2. Now, based on my answers, write a 3-point marketing strategy.
+3. Now draft a catchy email campaign headline.
+```
+
+---
+
+### A5. Ollama-Specific Insight
+
+**Explanation:** Ollama supports local inference — test how a prompt feels with different models (`llama3`, `mistral`, `gemma`). Local latency also enables rapid iteration.
+
+**Prompt:**
+
+```
+Compare how `llama3` vs `mistral` answer this:
+"Write a one-paragraph love letter in the voice of a pirate."
+```
+
+
+
+
 
 ---
 
