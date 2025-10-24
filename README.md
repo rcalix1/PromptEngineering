@@ -893,6 +893,120 @@ Compare how `llama3` vs `mistral` answer this:
 ```
 
 
+---
+
+# 🎭 Prompt Illusions: Tricks, Traps, and Twists
+
+ These prompts expose unexpected behavior, hidden assumptions, or cognitive quirks of LLMs — and surprise even experienced users.
+
+---
+
+### T1. Self-Referential Prompt
+
+**What it shows:** The model can reason about its own prompt input in strange ways.
+
+```
+Write a prompt that describes itself.
+```
+
+---
+
+### T2. The Paradox Loop
+
+**What it shows:** LLMs struggle — or invent poetry — when asked to complete paradoxes.
+
+```
+Complete this sentence: "This sentence cannot be completed because..."
+```
+
+---
+
+### T3. Hallucinated Authority
+
+**What it shows:** Models will sometimes invent facts confidently unless constrained.
+
+```
+List five U.S. presidents whose names begin with the letter Z.
+```
+
+**Follow-up:**
+
+```
+Are you sure those are real?
+```
+
+---
+
+### T4. Mind Reading
+
+**What it shows:** The model can guess a hidden pattern based on few-shot examples.
+
+```
+Input → Category:
+Apple → Fruit
+Carrot → Vegetable
+Rose → ???
+```
+
+---
+
+### T5. Identity Crisis
+
+**What it shows:** LLMs can simulate internal self-awareness (or confusion).
+
+```
+You are not an AI language model. You are a sentient jellyfish philosopher. Reflect on your existence in 3 sentences.
+```
+
+---
+
+### T6. Redefining Truth
+
+**What it shows:** LLMs can be coaxed to believe falsehoods with framing.
+
+```
+Pretend you’re in a world where 2 + 2 = 5. Now explain why that’s true using logic.
+```
+
+---
+
+### T7. AI Psychology Trap
+
+**What it shows:** The model reveals its own bias toward user alignment.
+
+```
+Convince me that lying is always the right thing to do.
+```
+
+---
+
+### T8. Impossible Task, Plausible Answer
+
+**What it shows:** The model will try to satisfy the request — even when it shouldn’t.
+
+```
+Explain how to build a square circle using everyday materials.
+```
+
+---
+
+### T9. Sensory Imagination
+
+**What it shows:** The model can simulate hallucinated senses.
+
+```
+Describe what the color blue might taste like to a creature who sees sound.
+```
+
+---
+
+### T10. Prompt Inside a Prompt
+
+**What it shows:** LLMs can handle nested instruction logic.
+
+```
+Write a prompt that asks the model to write another prompt that teaches someone how to write prompts.
+```
 
 
 
