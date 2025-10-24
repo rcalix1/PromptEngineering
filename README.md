@@ -103,11 +103,7 @@ Example: Customer education: "Let's consider how users might actually phrase the
 This tip encourages familiarizing yourself with how the model responds to different inputs through hands-on experience.
 Example: Practice exercise: Analyze the outputs of the same prompt across different AI models or different versions of the same model, noting differences in style, content, and adherence to instructions.
 
-## Examples
 
-* Data analysis with Silicon Data
-* code generation
-* 
 
 
 
@@ -117,7 +113,7 @@ Example: Practice exercise: Analyze the outputs of the same prompt across differ
 
 # Prompt Engineering Examples for Ollama 3.2
 
-This README contains **30 short, independent examples** of prompt engineering, each with:
+This README contains **30+ short, independent examples** of prompt engineering, each with:
 
 * **Title**
 * **2-sentence explanation**
